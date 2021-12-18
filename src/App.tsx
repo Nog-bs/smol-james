@@ -5,7 +5,6 @@ import "./App.css";
 import { RandomPictures } from "./components/randomPictures";
 import { Socials } from "./components/socials";
 import About from "./components/about";
-import bamBam from "../assets/images/bam-bam.png";
 
 export const App: React.FC = () => {
     return (

@@ -24,7 +24,7 @@ const imageArr = [
     { img: waldo, caption: "Waldo" },
 ];
 
-export const RandomPictures: React.FC<RandomPicturesProps> = ({}) => {
+export const RandomPictures: React.FC<RandomPicturesProps> = () => {
     const [imageIndex, setImageIndex] = useState(0);
 
     const handleClick = () =>
