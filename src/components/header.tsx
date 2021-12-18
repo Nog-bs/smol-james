@@ -5,8 +5,15 @@ interface HeaderProps {}
 
 export const Header: React.FC<HeaderProps> = ({}) => {
     return (
-        <Box display="flex" justifyContent="center">
-            <Typography typography="h1" color="white">
+        <Box
+            position="sticky"
+            top="0"
+            display="flex"
+            justifyContent="center"
+            bgcolor="#F5B700"
+            padding="6px"
+        >
+            <Typography fontSize="2rem" variant="h1">
                 Merry Chrysler
             </Typography>
         </Box>
