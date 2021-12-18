@@ -12,6 +12,13 @@ export const Socials: React.FC<RandomFactsProps> = ({}) => {
             <a
                 rel="noreferrer"
                 target="_blank"
+                href="https://www.instagram.com/p/CXMfpbCLaHF/"
+            >
+                Sneak peak his about to be released single {":)"}
+            </a>
+            <a
+                rel="noreferrer"
+                target="_blank"
                 href="https://github.com/Nog-bs/smol-james"
             >
                 Github Code
